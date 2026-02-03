@@ -6,17 +6,19 @@ console.log("hello-world");
 
 
 for (let i=0; i<=100; i++) {
-    if ( i % 3 == 0) {
-        console.log("FIZZ");
+    if ( i % 3 == 0 && i % 5 == 0) {
+        console.log("FIZZBUZZ");
         
     } 
-    if ( i % 5 == 0) {
-        console.log("BUZZ");
+    else if ( i % 3 == 0) {
+        console.log("FIZZ");
         
     }
-    if ( i % 3 % 5 == 0) {
-        console.log("FIZZBUZZ")
+    else if ( i % 5 == 0) {
+        console.log("BUZZ")
+        
     }
     console.log(i);
+    
     
 }
