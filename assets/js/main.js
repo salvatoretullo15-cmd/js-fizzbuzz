@@ -18,7 +18,7 @@ for (let i=0; i<=100; i++) {
         console.log("BUZZ")
         
     }
-    console.log(i);
+    else console.log(i);
     
     
 }
